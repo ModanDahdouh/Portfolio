@@ -1,0 +1,51 @@
+.card-Projet {
+    display: flex;
+    flex-wrap: wrap;
+}
+.link-card { 
+    padding: 10px;
+    box-sizing: border-box;
+    // border: 1px solid red;
+    max-width: 578px;
+    width: 50%;
+}
+.link-card,p {
+    color: #fff;
+}
+ @keyframes neon {
+    0% {
+       box-shadow: 0 0 5px rgba(0, 255, 255, 0.3), 0 0 5px rgba(0, 255, 255, 0.2);
+     }
+    100% {
+      box-shadow: 0 0 5px rgba(0, 255, 255, 0.8), 0 0 5px rgba(0, 255, 255, 10);
+    }
+}
+.card {
+    will-change: box-shadow;
+    animation: neon 1.5s infinite alternate;
+    text-align: start;
+    background: #232323;
+    border-radius: 5px;
+    height: 556px;
+    width: 100%;
+    color: #e29ba7;
+    font-size: 1.125rem;;
+}
+.card:hover {
+    color: #fff;
+    animation: neon 1.5s infinite alternate;
+}
+
+.img-card {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title-card, .title-card ~ p {
+    padding: 0 20px 0 20px;
+    margin: 0;
+}
+.title-card {
+    padding-top: 20px;
+    line-height: 3rem;
+}

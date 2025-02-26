@@ -1,0 +1,85 @@
+.acceuil {
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh 0 5vh 0;
+}
+.photos-Profil {
+    border: 4px solid #e29ba7;
+    width: 248px;
+    min-height: 248px;
+    border-radius: 50%;
+    margin-right: 50px;
+    object-fit: cover;
+}
+.description-Profil {
+    font-size: 2.5rem;
+    color: #edc1c9;
+    white-space: normal; /* Permet le retour à la ligne naturel */
+    overflow-wrap: break-word; /* Force le retour à la ligne sans couper les mots */
+    word-wrap: break-word; /* Ancienne version pour compatibilité */
+    hyphens: auto; /* Évite les césures */
+}
+.projet {
+    background: #121212;
+    
+}
+.title-projet {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #b7dbd8;
+    margin: 16px 0;
+    padding-left: 10px;
+}
+.experience {
+    background: #121212;
+    // border: 1px solid red;
+}
+.h2-experience {
+    padding-left: 20px;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #b7dbd8;
+}
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.skill {
+    border: 1px solid  #e29ba7;
+    margin: 5px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #e29ba7;
+    color: #e29ba7;
+  
+    margin: 0 4px 16px
+}
+
+.service {
+    background: #121212;
+    border: 1px solid #121212;
+}
+.h2-service {
+    padding-left: 20px;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #b7dbd8;
+}
+.contact {
+    padding: 50px 0 100px 0;
+}
+.h2-contact {
+    padding-left: 20px;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #b7dbd8;
+}
