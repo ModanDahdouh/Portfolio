@@ -14,3 +14,8 @@
     font-size: 1.75rem;
     color: #e29ba7;
 }
+@media (max-width: 768px) {
+    nav {
+        padding: 0 20px;
+    }
+}

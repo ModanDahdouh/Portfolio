@@ -53,3 +53,33 @@ li {
 .fa-twitter:hover {
     color: #f7e6e9;
 }
+
+
+@media (max-width: 425px) {
+    .h1-nav {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .ul-nav {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .ul-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .fa-linkedin {
+        font-size: 2rem; 
+        
+    }
+    .fa-github {
+        font-size: 2rem; 
+    }
+    
+    .fa-twitter {
+        font-size: 2rem; 
+    }
+}

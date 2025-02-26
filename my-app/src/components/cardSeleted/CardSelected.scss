@@ -59,4 +59,8 @@
     color: #e29ba7;
 }
 
-   
+@media (max-width: 700px) {
+    .selected-experience {
+        flex-direction: column-reverse;
+    }
+}
