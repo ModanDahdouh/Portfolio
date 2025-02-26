@@ -26,7 +26,7 @@
     text-align: start;
     background: #232323;
     border-radius: 5px;
-    height: 556px;
+    height: 100%;
     width: 100%;
     color: #e29ba7;
     font-size: 1.125rem;;
@@ -41,11 +41,33 @@
   border-radius: 5px;
 }
 
-.title-card, .title-card ~ p {
-    padding: 0 20px 0 20px;
-    margin: 0;
-}
 .title-card {
     padding-top: 20px;
     line-height: 3rem;
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+.p-card {
+    margin: 0;
+    padding: 20px;
+}
+@media (max-width: 1024px) {
+    .selected-experience {
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 768px) {
+    .card-Projet {
+        flex-direction: column;
+        align-items: center;
+    }
+    .link-card {
+        width: 70%;
+    }
+}
+@media (max-width: 375px) {
+
+    .link-card {
+        width: 100%;
+    }
 }

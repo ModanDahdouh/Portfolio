@@ -47,7 +47,7 @@
 .skills-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .skill {
     border: 1px solid  #e29ba7;
@@ -58,7 +58,7 @@
     border-radius: 8px;
     border: 1px solid #e29ba7;
     color: #e29ba7;
-  
+    max-width: 80px;
     margin: 0 4px 16px
 }
 
@@ -82,4 +82,14 @@
     font-size: 2rem;
     font-weight: 700;
     color: #b7dbd8;
+}
+@media (max-width: 768px) {
+    .acceuil {
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 768px) {
+    .acceuil {
+        margin-top: 20vh;
+    }
 }

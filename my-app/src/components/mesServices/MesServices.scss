@@ -1,6 +1,5 @@
 .mesService {
     border-radius: 4px;
-    height: 250px;
     color: white;
     display: flex;
     justify-content: center;
@@ -10,6 +9,15 @@
 .carousel-mesService {
     width: 100%;
 }
+
+.text-carousel-mesService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-carousel {
+    padding: 0 80px;
+}
 .button-carousel {
     position: relative;
     display: flex;
@@ -17,7 +25,7 @@
     justify-content: space-between;
 }
 .btn-carousel {
-    background: #121212;
+    background: #12121200;
     border: none;
     cursor: pointer;
 }
@@ -44,4 +52,14 @@
     background-color: #b7dbd8; // Le dot est rempli quand actif
     border: 1px solid #b7dbd8;
 }
-  
+  @media (max-width: 320px) {
+    .button-carousel {
+        bottom: 130px;
+    }
+    .svg-button-carousel {
+        height: 30px;
+    }
+    .dot {
+        margin: 5px;
+    }
+  }

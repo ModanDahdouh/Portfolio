@@ -6,27 +6,27 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const services = [
   {
     title: 'Développement Frontend',
-    description: "Création d'interfaces modernes et interactives avec React, Vue.js et Tailwind CSS.",
+    description: " Création d'interfaces modernes et interactives avec React, Vue.js et Tailwind CSS.",
   },
   {
     title: 'Développement Backend',
-    description: 'Mise en place d\'API performantes avec Node.js, Express et bases de données SQL/NoSQL.',
+    description: ' Mise en place d\'API performantes avec Node.js, Express et bases de données SQL/NoSQL.',
   },
   {
     title: 'Création de Sites Web',
-    description: 'Développement de sites vitrines et e-commerce optimisés pour le SEO et mobiles.',
+    description: ' Développement de sites vitrines et e-commerce optimisés pour le SEO et mobiles.',
   },
   {
     title: 'Optimisation et Performance',
-    description: 'Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
+    description: ' Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
   },
   {
     title: 'Optimisation et Performance',
-    description: 'Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
+    description: ' Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
   },
   {
     title: 'Optimisation et Performance',
-    description: 'Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
+    description: ' Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
   },
 ];
 
@@ -62,10 +62,10 @@ export default function MesServices() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
             transition={{ duration: 0.5 }}
-            className="text-center"
+            className="text-carousel-mesService"
           >
             <h2 className="text-xl font-semibold">{services[index].title}</h2>
-            <p className="mt-2 text-sm text-gray-300">{displayText}</p>
+            <p className="p-carousel mt-2 text-sm text-gray-300">{displayText}</p>
           </motion.div>
         </AnimatePresence>
 

@@ -15,7 +15,7 @@ export default function CardProjet() {
                 <div key={item.id} className="card">
                     <img className='img-card' src={item.img} alt={item.title} />
                     <h3 className='title-card'>{item.title}</h3>
-                    <p>{item.title_des}</p>  
+                    <p className='p-card'>{item.title_des}</p>  
                 </div>
             </Link>
         ))}
