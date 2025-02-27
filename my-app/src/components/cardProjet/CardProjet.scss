@@ -1,3 +1,4 @@
+
 .card-Projet {
     display: flex;
     flex-wrap: wrap;
@@ -24,11 +25,11 @@
     will-change: box-shadow;
     animation: neon 1.5s infinite alternate;
     text-align: start;
-    background: #232323;
+    background: $backgroundCard;
     border-radius: 5px;
     height: 100%;
     width: 100%;
-    color: #e29ba7;
+    color: $couleurSecondaire;
     font-size: 1.125rem;;
 }
 .card:hover {

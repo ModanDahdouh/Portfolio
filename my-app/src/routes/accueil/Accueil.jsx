@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import CardProjet from '../../components/cardProjet/CardProjet'
-import '../../routes/acceuil/Acceuil.scss'
 import MesServices from '../../components/mesServices/MesServices'
 import Form from '../../components/formContact/FormContact';
 export default function Accueil() {

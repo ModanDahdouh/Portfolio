@@ -25,7 +25,7 @@
     justify-content: space-between;
 }
 .btn-carousel {
-    background: #12121200;
+    background: $couleurBackground;
     border: none;
     cursor: pointer;
 }
@@ -43,7 +43,7 @@
     margin: 10px;
     gap: 10px;
     transition: all 0.3s ease-in-out;
-    border: 1px solid #e29ba7;
+    border: 1px solid $couleurSecondaire;
 }
 .dot:hover {
     background-color: #dbb7b7; // Effet au survol

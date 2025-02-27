@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './MesServices.scss';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 

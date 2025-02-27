@@ -1,7 +1,7 @@
 import React from 'react'
 import { dataProjet } from '../../components/data/dataProjet'
 import { Link } from 'react-router-dom'
-import './CardProjet.scss'
+
 
 export default function CardProjet() {
   return (

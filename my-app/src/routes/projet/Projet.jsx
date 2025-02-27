@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import CardSelected from '../../components/cardSeleted/CardSelected'
-import './Projet.scss'
 
 export default function Projet() {
   return (

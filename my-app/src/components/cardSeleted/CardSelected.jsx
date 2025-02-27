@@ -3,7 +3,6 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { dataProjet } from '../../components/data/dataProjet'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import './CardSelected.scss'
 
 export default function CardSelected() {
     const { id } = useParams(); // Utilisation de useParams() pour obtenir l'ID du projet

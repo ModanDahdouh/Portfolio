@@ -3,7 +3,7 @@ nav {
     z-index: 1;
     display: flex;
     justify-content: space-between;
-    background: #121212; 
+    background: $couleurBackground; 
     width: 100%;
     max-width: 1160px;
 }
@@ -13,7 +13,7 @@ nav {
     align-items: flex-start;
 }
 .h1-nav {
-    color: #8bc5bf;
+    color: $couleurPrincipale;
     font-size: 3rem;
     margin: 25px 0 -10px 0;
 }
@@ -28,10 +28,10 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #121212;
+    background: $couleurBackground;
 }
 .ul-nav li a{
-    color: #e29ba7;
+    color: $couleurSecondaire;
 }
 li {
     margin-left: 16px;

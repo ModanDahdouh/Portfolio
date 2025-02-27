@@ -6,9 +6,7 @@
 }
 .card-selected-img {
     width: 100%;
-    
-  
-    color: #e29ba7;
+    color: $couleurSecondaire;
     font-size: 1.125rem;
 }
 .img-card-selected {
@@ -21,13 +19,12 @@
 
 .h2-card-selected {
     position: absolute;
-    // border: 1px solid red;
     bottom: -28px;
     width: 49.5%;
     text-align: start;
     background-color: rgba(30, 30, 30, 0.8);
     font-size: 2rem;
-    color: #8bc5bf;
+    color: $couleurPrincipale;
     padding: 16px;
 }
 .selected-experience {
@@ -38,14 +35,12 @@
     align-items: center;
 }
 .card-selected-description {
-    display: flex
-;
+    display: flex;
     font-size: 1.5rem;
     border-radius: 4px;
     width: 100%;
     padding: 0 10px 0 10px;
     color: #fff;
- 
     flex-direction: column;
 }
 
@@ -56,10 +51,11 @@
     align-items: center;
     gap: 10px;
     color: white;
-    color: #e29ba7;
+    color: $couleurSecondaire;
 }
 
-@media (max-width: 700px) {
+
+@media (max-width: 950px) {
     .selected-experience {
         flex-direction: column-reverse;
     }

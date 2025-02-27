@@ -1,8 +1,27 @@
+// Import des variables et mixins
+@import './components/utils/variables.scss';
+@import './components/utils/mixins.scss';
+
+
+// Import des styles des composants
+@import './components/mesServices/MesServices.scss';
+@import './components/cardProjet/CardProjet.scss';
+@import './components/cardSeleted/CardSelected.scss';
+@import './components/formContact/FormContact.scss';
+@import './components/navbar/Navbar.scss';
+
+
+// Import des styles des pages
+@import './routes/accueil/Accueil.scss';
+@import './routes/projet/Projet.scss';
+@import './routes/page404/Page404.scss';
+@import './routes/App.scss';
+
 * {
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 #root {
   background: #121212;;
@@ -20,11 +39,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body::-webkit-scrollbar {
-  width: 8px; /* width of the entire scrollbar */
+  width: 8px; 
 }
 
 body::-webkit-scrollbar-track {
-  background: #121212; /* color of the tracking area */
+  background: #121212;
 border: none;
 }
 

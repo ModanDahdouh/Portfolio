@@ -1,12 +1,12 @@
 .acceuil {
-    background: #121212;
+    background: $couleurBackground;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15vh 0 5vh 0;
 }
 .photos-Profil {
-    border: 4px solid #e29ba7;
+    border: 4px solid $couleurSecondaire;
     width: 248px;
     min-height: 248px;
     border-radius: 50%;
@@ -22,7 +22,7 @@
     hyphens: auto; /* Évite les césures */
 }
 .projet {
-    background: #121212;
+    background: $couleurBackground;
     
 }
 .title-projet {
@@ -34,8 +34,7 @@
     padding-left: 10px;
 }
 .experience {
-    background: #121212;
-    // border: 1px solid red;
+    background: $couleurBackground;
 }
 .h2-experience {
     padding-left: 20px;
@@ -50,21 +49,19 @@
     flex-wrap: wrap;
 }
 .skill {
-    border: 1px solid  #e29ba7;
-    margin: 5px;
     font-size: 1.125rem;
     font-weight: 500;
     padding: 8px;
     border-radius: 8px;
-    border: 1px solid #e29ba7;
-    color: #e29ba7;
+    border: 1px solid $couleurSecondaire;
+    color: $couleurSecondaire;
     max-width: 80px;
     margin: 0 4px 16px
 }
 
 .service {
-    background: #121212;
-    border: 1px solid #121212;
+    background: $couleurBackground;
+    border: 1px solid $couleurBackground;
 }
 .h2-service {
     padding-left: 20px;

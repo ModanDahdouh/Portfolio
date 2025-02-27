@@ -1,10 +1,9 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import Accueil from "./routes/acceuil/Acceuil";
-import "./App.scss";
-import Navbar from "./components/navbar/Navbar";
-import Projet from "./routes/projet/Projet";
-import Page404 from "./routes/page404/Page404";
+import Accueil from "./accueil/Accueil";
+import Navbar from "../components/navbar/Navbar";
+import Projet from "./projet/Projet";
+import Page404 from "./page404/Page404";
 
 
 
