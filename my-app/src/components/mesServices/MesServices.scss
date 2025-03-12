@@ -53,6 +53,9 @@
     border: 1px solid #b7dbd8;
 }
   @media (max-width: 320px) {
+    .mesService {
+        font-size: 1rem;
+    }
     .button-carousel {
         bottom: 130px;
     }

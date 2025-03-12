@@ -1,7 +1,6 @@
 {
     "name": "my-app",
     "version": "0.1.0",
-    "homepage": "https://modandahdouh.github.io/Portfolio",
     "private": true,
     "dependencies": {
         "@fortawesome/free-brands-svg-icons": "^6.7.2",
@@ -23,9 +22,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "build:css": "tailwindcss -i src/input.css -o src/output.css",
-        "watch:css": "tailwindcss -i src/input.css -o src/output.css --watch",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "watch:css": "tailwindcss -i src/input.css -o src/output.css --watch"
     },
     "eslintConfig": {
         "extends": [
