@@ -1,7 +1,7 @@
 export const dataProjet = [
     {
         id: "1",
-        img: "/img/ArgentBank.webp",
+        img: "./img/ArgentBank.webp",
         title: "Argent Bank",
         title_des:
             "Implémenter le front-end d'une application bancaire avec React",
@@ -12,7 +12,7 @@ export const dataProjet = [
     },
     {
         id: "2",
-        img: "/img/Booki.webp",
+        img: "./img/Booki.webp",
         title: "Booki",
         title_des:
             "Créer la page d'accueil d'une agence de voyage avec HTML & CSS",
