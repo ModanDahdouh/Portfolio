@@ -13,8 +13,8 @@ export default function Navbar() {
         </div>
         
           <ul className='ul-nav'>
-              <li><a href="https://www.youtube.com/watch?v=TvMrtOPphjE&list=RDinBKFMB-yPg&index=12" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-              <li><a href="/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
+              <li><a href="/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+              <li><a href="https://github.com/ModanDahdouh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
               <li><a href="/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a></li>
           </ul>
       </nav>
