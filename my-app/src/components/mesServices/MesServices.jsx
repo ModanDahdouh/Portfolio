@@ -5,28 +5,33 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const services = [
   {
     title: 'Développement Frontend',
-    description: " Création d'interfaces modernes et interactives avec React, Vue.js et Tailwind CSS.",
+    description: " Création d'interfaces modernes et interactives avec React, Redux, sass et CSS.",
   },
   {
     title: 'Développement Backend',
-    description: ' Mise en place d\'API performantes avec Node.js, Express et bases de données SQL/NoSQL.',
+    description: 'Mise en place d\'API performantes avec Node.js, Express et bases de données MongoDb.',
   },
   {
     title: 'Création de Sites Web',
-    description: ' Développement de sites vitrines et e-commerce optimisés pour le SEO et mobiles.',
+    description: "Développement de sites vitrines et e-commerce optimisés pour le SEO et mobiles.",
   },
   {
     title: 'Optimisation et Performance',
-    description: ' Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
+    description: "Amélioration de la rapidité du site et de sa visibilité sur les moteurs de recherche.",
   },
   {
-    title: 'Optimisation et Performance',
-    description: ' Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
+    title: 'Sécurité',
+    description: "Mise en place de protocoles de sécurité de base pour protéger les données sensibles.",
   },
   {
-    title: 'Optimisation et Performance',
-    description: ' Amélioration du chargement et du référencement (SEO) pour une meilleure expérience utilisateur.',
+    title: 'Tests Unitaires',
+    description: "Création de tests unitaires pour garantir la qualité et la fiabilité de notre code.",
   },
+  {
+    title: 'Débugging et Maintenance',
+    description: "Débugging et maintenance pour assurer la stabilité et la performance de votre application.",
+  },
+  
 ];
 
 export default function MesServices() {
@@ -37,13 +42,18 @@ export default function MesServices() {
     let i = 0;
     setDisplayText('');
     const interval = setInterval(() => {
-      if (i < services[index].description.length) {
-        setDisplayText((prev) => prev + services[index].description[i]);
+      const desc = services[index].description || '';
+      if (i < desc.length) {
+        const char = desc[i];
+        if (char !== undefined) {
+          setDisplayText((prev) => prev + char);
+        }
         i++;
       } else {
         clearInterval(interval);
       }
     }, 30);
+    
     return () => clearInterval(interval);
   }, [index]);
 

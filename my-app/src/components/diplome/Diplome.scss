@@ -1,0 +1,35 @@
+.diplome-section {
+    background: $couleurBackground;
+    border: 1px solid $couleurBackground;
+    transition: height 0.5s ease;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .diplome-section.zoomed {
+    height: 100%;
+  }
+  
+  .diplome-title {
+    padding-left: 20px;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #b7dbd8;
+    margin-bottom: 50px;
+  }
+  
+  .diplome-img {
+    width: 40%;
+    transition: width 0.5s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    height: 500px;
+  }
+  
+  .diplome-section.zoomed .diplome-img {
+    width: 70%;
+    height: 800px;
+  }
+  

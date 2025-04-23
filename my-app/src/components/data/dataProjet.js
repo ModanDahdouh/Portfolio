@@ -54,4 +54,34 @@ export const dataProjet = [
         skills: "Javascript | React | Sass | Jest",
         github: "https://github.com/ModanDahdouh/Projet-10-OC.git",
     },
+    {
+        id: "6",
+        img: "/img/nina.webp",
+        title: "Nina Carducci",
+        title_des: "Optimisez le référencement d'un site web",
+        description:
+            "Débogage d'un site implémenté avec React, en utilisant des tests unitaires et d'intégrations réalisés avec Jest. Ecriture d'un cahier de recette des différentes fonctionnalités du site.",
+        skills: "Javascript | React | Sass | Jest",
+        github: "https://github.com/ModanDahdouh/Projet-9-OC.git",
+    },
+    {
+        id: "7",
+        img: "/img/sophie-bluel.png",
+        title: "Sophie Bluel",
+        title_des: "Conception du site portfolio d’une architecte d’intérieur",
+        description:
+            "Débogage d'un site implémenté avec React, en utilisant des tests unitaires et d'intégrations réalisés avec Jest. Ecriture d'un cahier de recette des différentes fonctionnalités du site.",
+        skills: "Javascript | API",
+        github: "https://github.com/ModanDahdouh/Projet-OC-6.git",
+    },
+    {
+        id: "8",
+        img: "/img/Mask Group.png",
+        title: "Qwenta",
+        title_des: "Planifiez le développement du site Menu Maker (SEO)",
+        description:
+            "Débogage d'un site implémenté avec React, en utilisant des tests unitaires et d'intégrations réalisés avec Jest. Ecriture d'un cahier de recette des différentes fonctionnalités du site.",
+        skills: "Javascript | React | Sass | Jest",
+        github: "",
+    },
 ];

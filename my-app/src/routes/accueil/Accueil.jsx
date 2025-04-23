@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import CardProjet from '../../components/cardProjet/CardProjet'
 import MesServices from '../../components/mesServices/MesServices'
 import Form from '../../components/formContact/FormContact';
+import Diplome from '../../components/diplome/Diplome';
 export default function Accueil() {
   const text = `Développeur front-end\npassionné par la création d'interfaces modernes et performantes. Spécialisé en React .`;
 
@@ -62,6 +63,7 @@ export default function Accueil() {
             <h2 className='h2-service'>Mes Services</h2>
             <MesServices />
         </section>
+        <Diplome />
         <section className='contact'>
           <h2 className='h2-contact'>Contact</h2>
           <Form />
