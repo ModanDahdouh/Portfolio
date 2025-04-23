@@ -76,7 +76,7 @@ export const dataProjet = [
     },
     {
         id: "8",
-        img: "/img/Mask Group.png",
+        img: "/img/Mask-Group.png",
         title: "Qwenta",
         title_des: "Planifiez le développement du site Menu Maker (SEO)",
         description:
